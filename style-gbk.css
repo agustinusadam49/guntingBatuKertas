@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-image: url(img-gbk/gambar-bground.png);
+    font-family: arial;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa;
+}
+
+h3#h3-komputer {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 20px;
+    color: rgb(17, 167, 159);
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa;
+}
+
+h3#h3-player {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 20px;
+    color: rgb(17, 167, 159);
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa;
+}
+
+h3#h3-hasil {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    top: 120%;
+    color: rgb(17, 167, 159);
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.area-komputer {
+    width: 560px;
+    height: 200px;
+    margin: 5px auto;
+    margin-top: 5px;
+    background-color: rgb(158, 38, 118);
+    background: linear-gradient(to bottom, rgb(69, 34, 77) 0%, rgb(29, 91, 150) 100%);
+    position: relative;
+    padding-top: 40px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.area-player {
+    width: 560px;
+    height: 250px;
+    margin: 5px auto;
+    background-color: rgb(158, 38, 118);
+    background: linear-gradient(to bottom, rgb(69, 34, 77) 0%, rgb(29, 91, 150) 100%);
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.info-winner {
+    width: 250px;
+    height: 60px;
+    border: 2px solid rgb(34, 95, 119);
+    position: relative;
+    margin-left: 173px;
+    top: 100%;
+    margin-top: -10px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+    text-align: center;
+    line-height: 60px;
+    color: #341c74;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-top: 80px;
+    padding-left: 25px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(69, 34, 77);
+}
+
+.gunting, .batu, .kertas {
+    transition: .3s;
+    position: relative;
+    top:0;
+    cursor: pointer;
+}
+
+.gunting:hover, .batu:hover, .kertas:hover, .active {
+    box-shadow: 0 0 10px 5px rgb(158, 32, 80);
+}
+
+.gunting:active, .batu:active, .kertas:active {
+    top: 2px;
+}
